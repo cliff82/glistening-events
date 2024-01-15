@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/28f3207881.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="event.css">
+   <title>Event Signup</title>
+
+   <style>
+      @keyframes scroll {
+        from {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+
+      .signup {
+        animation: scroll 15s linear infinite;
+      }
+  
+     .partyTime {
+        color: aliceblue;
+        font-size: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: scroll 15s linear infinite;
+      }
+    </style>
+</head>
+<body style="background-color: black;">
+   <div style="padding-top: 25px;" class="topEvent" id="mytopEvent">
+      <nav>
+      <a href="#events" >EVENTS</a>
+      <a href="#merch">MERCH</a>
+   </nav>
+      <a style="font-size: 30px;color: #730297;" href="#party">PARTY TIME</a>
+      <nav>
+      <a href="#cart">CART (0)</a>
+      <a style="border: solid 1px white;" href="#list">JOIN THE WAITLIST</a>
+   </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa-solid fa-plus"></i>
+      </a>
+    </div>
+    
+    <div style="padding-left:16px;">
+     
+      <p align="center" style="color: aliceblue;padding-top: 35px;line-height: 1.8;">Three days at the event horizon without beginning <br> or end. With music, food and irreversible <br> technological progress.</p>
+    </div>
+
+    <div  style="padding-top: 15px;padding-bottom: 40px;">
+       <h1 class="partyTime"  style="text-shadow: 1px 1px 2px yellow, 0 0 45px #730297, 0 0 5px palevioletred;font-size: 150px;">PARTY TIME</h1>
+       <img class="party1" src="/pics/party1.jpg" alt="party1">
+    </div>
+
+    <div align="center" style="padding-top: 160px;color: aliceblue;padding-bottom: 40px;">
+       <h1>
+         JOIN THE WAITLIST
+      </h1>
+      <p>There is no beginning or end, only updates and reminders to buy your tickets when available.</p>
+
+      <form style="color: aliceblue;" action="">
+         <label for="email">Email</label> <br> <br>
+         <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <div style="color: aliceblue;background-color: #444444;padding: 2% 3% 4% 2%;">
+       <h1 class="location" style="font-size: 55px;">THE LOCATION</h1>
+
+       <p style="line-height: 1.8;color: #730297;">The Party Time express exists on the event horizon, <br> where even a single grain of sand enters into <br> a closed loop of creation. <br>
+       </p>
+         
+       <img class="party1.one" style="float: right;" src="/pics/party1.jpg" height="450px" alt="party1">
+
+       <p style="line-height: 1.8;color: #36057C;">The perfect place to vibe in the vibrant <br> discourse of all things past, present and <br> future. <br>
+       </p>
+        
+       <img class="party2" style="float: right;" src="/pics/party2.jpg" height="250px " width="450px" alt="party2">
+
+       <span class="party">
+   <p  >THE PARTY IS IN HERE <br> AND THERE
+   </p>
+  </span>
+
+   <img class="party3" style="position: relative;
+   bottom: 8px;
+   left: 196px;" 
+   src="/pics/party3.jpg" alt="party3" height="250px" width="550px">
+</div>
+
+<div style="color: aliceblue;padding-top: 15%;padding-bottom: 15%;padding-left: 3%;">
+  <img style="float: right;padding-right: 20%;" height="350px" width="300px" src="/pics/design.jpg" alt="design">
+  <h1 class="sale" style="font-size: 55px;">SHOP THE PRESALE</h1>
+  <p ">In the Party Time express, time is a flat circle with limited edition merch available for presale.</p>
+  <button style="padding: 10px;" type="submit">BUY NOW</button>
+</div>
+      
+   <div  style="color: black;background-color: white;margin-left: 1%;">
+     <h1 style="font-size: 48px;padding-bottom: 3%;padding-top: 3%;">REGISTRATION OPTIONS</h1>
+
+
+
+     <button class="accordion">PACKAGE ONE</button>
+     <div style="margin-left: 3%;" class="panel">
+       <ul>
+         <li>1 General Admission Ticket</li>
+         <li>Parking Pass (F-K Lots)</li>
+         <li>Voucher for Complimentary Happy Hour Drink</li>
+         <li>1 Singularity Tent</li>
+         <li>1 Commemorative Cup</li>
+       </ul>
+     </div>
+     
+     <button class="accordion">PACKAGE TWO</button>
+     <div class="panel">
+      <ul>
+        <li>1 General Admission Ticket</li>
+        <li>Parking Pass (F-K Lots)</li>
+        <li>Voucher for Complimentary Happy Hour Drink</li>
+        <li>1 Singularity Tent</li>
+        <li>1 Commemorative Cup</li>
+      </ul>
+     </div>
+     
+     <button class="accordion">PACKAGE THREE</button>
+     <div class="panel">
+      <ul>
+        <li>1 General Admission Ticket</li>
+        <li>Parking Pass (F-K Lots)</li>
+        <li>Voucher for Complimentary Happy Hour Drink</li>
+        <li>1 Singularity Tent</li>
+        <li>1 Commemorative Cup</li>
+      </ul>
+     </div>
+     
+     <button class="accordion">PACKAGE FOUR</button>
+     <div class="panel">
+      <ul>
+        <li>1 General Admission Ticket</li>
+        <li>Parking Pass (F-K Lots)</li>
+        <li>Voucher for Complimentary Happy Hour Drink</li>
+        <li>1 Singularity Tent</li>
+        <li>1 Commemorative Cup</li>
+      </ul>
+     </div>
+  
+   <div style="font-size: 25px;">
+     <h1 align="center" class="signup"><i style="color: lightblue;" class="fa-regular fa-moon"></i>  SIGN UP  <i style="color: lightblue;" class="fa-regular fa-moon fa-flip-horizontal"></i>
+      <i  style="color: lightblue;padding-left: 17%;" class="fa-regular fa-moon"></i>  SIGN UP  <i style="color: lightblue;" class="fa-regular fa-moon fa-flip-horizontal"></i>
+    </h1>
+   </div>
+
+   <footer style="background-color: black;height: 75px;padding-top: 3%;" >
+     <a style="color: aliceblue;text-decoration: none;" href="https://cliffjamessr.netlify.app">2024 - Made with Inspiration</a>
+     <a style="float: right;color: aliceblue;text-decoration: none;" href="https://mkform.netlify.app">CONTACT</a>
+   </footer>
+
+      </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mytopEvent");
+        if (x.className === "topEvent") {
+          x.className += " responsive";
+        } else {
+          x.className = "topEvent";
+        }
+      }
+
+      var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+      </script>
+</body>
+</html>
